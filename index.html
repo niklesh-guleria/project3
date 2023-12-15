@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+
+        </div>
+        <div class="menu-outer">
+            <div class="menu">
+                <div class="flex">
+                    <div class="home">
+                        <i class="fas fa-home" aria-hidden="true"></i>
+                        <span class="span_home">Home</span>
+                    </div>
+                    <div class="phone">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <span class="span_phone">Phone</span>
+                    </div>
+                    <div class="chat">
+                        <i class="fas fa-commenting" aria-hidden="true"></i>
+                        <span class="span_chat">Chat</span>
+                    </div>
+                    <div class="contact">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                        <span class="span_contact">Contact</span>
+                    </div>
+                    <div class="content">
+                        <div class="setting" onclick="toggleSidebar()">
+                            <i class="fas fa-bars" aria-hidden="true"></i>
+                            <span class="span_setting">Setting</span>
+                        </div>
+                    </div>
+
+                    <div id="sidebar" class="sidebar">
+                        <button onclick="closeSidebar()">Close Seeting</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <div class="search-bar">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <div class="inner-search">
+                    <input type="search" placeholder="     search here">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="color-changing-line">
+        <div class="line"></div>
+    </div>
+
+
+
+
+
+    <div class="section">
+        <div class="men">
+          <div class="overlay">
+            <div class="box">
+                <div class="color-box">
+                    <button type="button">MEN </button>
+                </div>
+           </div>
+          </div>
+        </div>
+        <div class="women">
+           <div class="overlay">
+            <div class="women-box">
+                <div class="women-color-box">
+                    <button type="button">WOMEN</button>
+                </div>
+            </div>
+           </div>
+        </div>
+    
+    
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
